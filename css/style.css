@@ -1,0 +1,301 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'BRBA_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRBA_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#header{width: 100%; height: 146px;}
+.headerinner{width: 1320px; margin: 0 auto; height: 100%;}
+.top{width: 100%; height: 88px; box-sizing: border-box;}
+
+
+.logo{float: left;}
+.logo{padding:13px 0 13px 50%; margin-left: -113px;}
+.logo img{display: block;}
+
+
+.link{float: right;}
+.link li{float: left; padding: 31px 0;}
+.link li a{display: block; padding-left: 15px; opacity: 0.5;}
+.link li a:hover{opacity: 1;}
+
+
+.navbox{width: 1320px; margin: 0 auto; height: 60px;}
+.nav{width: 100%;}
+.nav>li{float: left; width: 25%; text-align: center; position: relative; }
+.nav>li>a{display: block; font-family: 'GmarketSansMedium'; font-size: 17px;
+        color: #636363; padding: 17px 0; }
+.nav>li>a:hover{color: #ed8d85;}
+
+.nav>li:nth-child(2)>a{color: #ed8d85;}
+
+    
+.sub{width: 330px; position: absolute; z-index: 99; display: none;}
+.sub li{width: 100%; height: 45px; text-align: center;}
+.sub li a{display: block; color: #000;
+    font-family: 'Noto Sans KR'; font-weight: 500;
+    background-color: rgb(255, 255, 255,0.3); padding: 13px 0;
+    font-size: 13px;}
+.sub li a:hover{background-color: rgba(255,255,255,0.5); color: #ed8d85;}
+
+
+.brandimg img{display: block;}
+
+.nav li:hover .sub{display: block;}
+
+
+
+/* -----------헤더 끝------------------------- */
+
+
+#productbanner img{width:100%; display:block;}
+
+
+
+#bestitem{width: 1320px; margin:200px auto; height: 1535px;}
+.bestname{text-align: center; font-family: 'GmarketSansBold';
+        font-size: 25px; color: #0e3b03;}
+.nametext1{text-align: center; font-family: 'Noto Sans KR';
+            font-weight: 400;}
+
+
+.innerbox1{margin-top: 18px; position: relative;}
+.colorbox1{width:1320px; height: 423px;
+            background-color: #f8a598;
+            padding: 40px; box-sizing: border-box;}
+
+.big{font-family: 'GmarketSansMedium';
+    color: #28601b; font-size:55px; line-height: 70px;}
+
+.small{font-family: 'GmarketSansMedium'; font-size: 35px;
+        color: #fff; padding-top: 20px;}
+.hover:hover .colorbox1{background-color: #ed8d85;}
+
+
+
+.img1{position: absolute; top: 60px; right:0;}
+
+.salebox1{padding: 40px 0 0 40px; font-family: 'Noto Sans KR';}
+.green{font-size: 18px; color: #446d20;
+    font-weight: 500;}
+.salename{font-size: 25px; font-weight: 500; color: #000;}
+.sale{font-size: 30px; font-weight: 700; padding-top: 15px;}
+
+.button{display: inline-block; width: 150px; height: 35px;
+        color: #446d20; border-radius: 17.5px; border: 2px solid #446d20;
+        text-align: center; padding: 3px; box-sizing: border-box; margin-top: 20px;}
+
+.button:hover{background-color: #446d20; color: #fff;}
+.godick{font-family: 'ONE-Mobile-Regular'; font-weight: 500;}
+
+
+
+/* 
+베스트아이템 1위 샴푸 끝--------------------------------- */
+
+
+.number2{width: 640px; margin-top: 50px; float: left;}
+.number3{width: 640px; margin-top: 50px; float: right;}
+.innerbox2{position: relative;}
+.colorbox2{height: 300px; padding: 27px; box-sizing: border-box;
+    background-color: #a2ba96; margin-top: 15px;}
+
+.bigtext{font-family: 'GmarketSansMedium'; font-size: 45px;
+    color: #fffaa9;}
+.smalltext{color: #fff; font-family: 'GmarketSansMedium';
+            font-size: 30px; line-height: 40px; padding-top: 10px;}
+
+
+
+.mma{margin-top: 40px;}
+.salebox2{padding: 27px 0 0 27px; font-family: 'Noto Sans KR';}
+.green2{color: #a2ba96; font-weight: 500; font-size: 13px; font-family: 'Noto Sans KR';}
+.salename2{color: #000; font-weight: 700; font-size: 15px; font-family: 'Noto Sans KR';}
+.godick2{font-family: 'ONE-Mobile-Regular'; font-weight: 500;
+        color: #000;   }
+.sale2{font-size: 25px; font-weight: 700; color: #000; margin-top: 13px; font-family: 'Noto Sans KR';}
+.button2{display: inline-block; width: 150px; height: 35px;
+    color: #a2ba96; border-radius: 17.5px; border: 2px solid #a2ba96;
+    text-align: center; padding: 3px; box-sizing: border-box; margin-top: 20px;}
+
+.button2:hover{background-color: #a2ba96; color: #fff;}
+.img2{position: absolute; top: 220px; left: 250px;}
+.img3{position: absolute; top: 150px; left: 320px;}
+.hover2:hover .colorbox2{background-color: #7e9b70;}
+
+/* 
+베스트아이템 2,3위 샴푸 끝--------------------------------- */
+
+
+.slidepromotion{margin-bottom: 60px;}
+
+
+/* 
+프로모션 배너 끝--------------------------------- */
+
+#allitem{margin-left:10%; height: 630px;}
+#allitem ul li{float: left;}
+#allitem ul li a{font-family: 'Noto Sans KR';}
+#allitem ul li a img{margin-bottom: 20px;}
+
+.alltext{float: left; width: 310px; padding-top:300px;}
+.bold{font-size: 30px; font-family: 'GmarketSansBold';
+        color: #193006; padding-bottom: 60px;}
+.all{font-size: 15px; font-family: 'Noto Sans KR';
+    font-weight: 500; padding-bottom: 80px; line-height: 30px;}
+.right{margin-left: 100px;}
+
+
+.hoin li{width:440px; height: 500px; position: relative;display: block;}
+
+
+.hoverinner{position: absolute; top: 0; left: 0;
+    width:440px; height: 500px;
+    text-align: center; box-sizing: border-box;
+    padding-top: 200px;
+    
+    background: url(images/blur.jpg) no-repeat top center;
+    opacity:0; 
+    
+   
+    /* transition: all 1s;  */
+    color:rgba(255,255,255,0);
+    transition:1s;
+}
+
+
+
+
+.hoin li a:hover .hoverinner{color:rgba(255,255,255,1); 
+            
+                background: url(images/blur.jpg) no-repeat top center;
+                opacity:1; 
+                transition:1s;
+                                         
+} 
+
+
+
+
+.mainname{font-size: 65px; font-family: 'BRBA_B';}
+.subname{font-size: 20px; font-family: 'Noto Sans KR'; font-weight: 500;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{width: 100%; height: 300px; background-color: #eea9a3;
+    margin-top: 200px;}
+.footerinner{width: 1320px; margin: 0 auto; padding-top: 50px;}
+
+.box1{width: 644px; height: 203px; 
+float: left; border-right: 1px solid #ce766e;}
+.ftlink{width: 100%; height:78px;}
+.ftlink li{float: left; padding-right: 63px;}
+.ftlink li a{display: block; color: #000;
+font-family: 'Noto Sans KR'; font-size: 15px;
+font-weight:700; padding: 28px 0;}
+.box1 p{font-size: 13px; font-family: 'Noto Sans KR';
+    color: #000; padding-bottom: 17px; font-weight: 500;}
+
+
+
+.box2{width:434px; height: 203px; float: left; border-right: 1px solid #ce766e;}
+.box2inner{width: 300px; height: 203px; margin: 0 auto;}
+.box2inner h3{font-size: 15px; font-family: 'Noto Sans KR';
+font-weight: 700; padding: 28px 0 12px; color: #000;}
+.box2inner h1{font-size: 20px; font-family: 'Noto Sans KR';
+        font-weight: 700; padding-bottom: 12px;}
+.box2inner p{font-size: 13px; font-family: 'Noto Sans KR'; font-weight: 400;
+        }
+
+
+
+
+.box3{width: 235px; height: 203px; float: left;}
+.fticon{float: right; padding-top:30px;}
+.fticon img{display: block; padding-left: 15px; float: left;}
+
+
+
+
+
+
+
+
+
+
+/*allitem*/
+#allitem{position:relative; overflow: hidden; height:780px;}
+.posi{position:absolute; top:50px; left:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
